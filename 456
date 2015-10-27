@@ -58,15 +58,15 @@ public class curs1 extends JFrame
         panel.add(textField2);
         textField2.setColumns(10);
         JLabel label2 = new JLabel("\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0432\u044B\u0441\u043E\u0442\u0443 \u0431\u0430\u043D\u0438 (\u0432 \u043C\u0435\u0442\u0440\u0430\u0445):");
-        label2.setBounds(20, 105, 210, 30);
+        label2.setBounds(30, 115, 220, 40);
         label2.setHorizontalAlignment(0);
         panel.add(label2);
         textField3 = new JTextField();
-        textField3.setBounds(40, 130, 170, 30);
+        textField3.setBounds(50, 140, 180, 40);
         panel.add(textField3);
         textField3.setColumns(10);
         JButton button = new JButton("\u0420\u0430\u0441\u0447\u0435\u0442");
-        button.setBounds(40, 165, 170, 30);
+        button.setBounds(50, 175, 180, 40);
         panel.add(button);
         button.addActionListener(new ActionListener() {
 
