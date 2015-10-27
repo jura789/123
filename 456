@@ -46,11 +46,11 @@ public class curs1 extends JFrame
         label.setHorizontalAlignment(0);
         panel.add(label);
         textField1 = new JTextField();
-        textField1.setBounds(40, 30, 170, 30);
+        textField1.setBounds(50, 40, 180, 50);
         panel.add(textField1);
         textField1.setColumns(5);
         JLabel label1 = new JLabel("\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0448\u0438\u0440\u0438\u043D\u0443 \u0431\u0430\u043D\u0438 (\u0432 \u043C\u0435\u0442\u0440\u0430\u0445):");
-        label1.setBounds(20, 55, 210, 30);
+        label1.setBounds(30, 65, 220, 40);
         label1.setHorizontalAlignment(0);
         panel.add(label1);
         textField2 = new JTextField();
